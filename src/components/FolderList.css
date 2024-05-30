@@ -1,0 +1,24 @@
+.folder-list {
+    width: 200px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+    padding: 10px;
+    height: 100vh; /* Full height */
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto; /* Scrollable if content overflows */
+}
+
+.folder-list div {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.folder-list div:hover {
+    background-color: #e9ecef;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
