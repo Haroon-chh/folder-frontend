@@ -27,10 +27,11 @@
 .main-content {
   flex: 1;
   padding: 20px;
+  background-color: rgb(207, 218, 237);
 }
 
 .content-display {
-  border: 1px solid #ccc;
+  border: 1px solid #0e6092;
   padding: 20px;
 }
 
@@ -38,4 +39,5 @@
   width: 100px;
   height: 100px;
   margin: 10px;
+  border: 2px solid black;
 }
